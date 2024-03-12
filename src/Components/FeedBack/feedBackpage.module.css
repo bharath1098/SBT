@@ -1,0 +1,155 @@
+.mainContainer {
+  width: 100%;
+  height: 88vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2%;
+  padding: 1%;
+  overflow-y: scroll;
+  color: white;
+  background-color: rgb(57, 57, 57);
+}
+
+.mainContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+.ratingContainer {
+  width: 40%;
+  height: 97%;
+  outline: 1px solid red;
+}
+
+.feedBackContainer {
+  width: 55%;
+  height: 97%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2%;
+  overflow: scroll;
+  /* outline: 1px solid rgb(44, 215, 10); */
+}
+
+.feedBackContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+.feedbackCard {
+  width: 95%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  border-radius: clamp(
+    0.0488125rem,
+    6.938893903907228e-18rem + 0.7809999999999999vw,
+    4.88125rem
+  );
+  box-shadow: rgba(66, 66, 66, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* outline: 1px solid red; */
+}
+
+.imageContainer {
+  width: 13%;
+  aspect-ratio: 1/1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  /* outline: 1px solid red; */
+}
+
+.imageContainer > img {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.contentContainer {
+  width: 85%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* outline: 1px solid orange; */
+}
+
+.topContent {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* outline: 1px solid orange; */
+}
+
+.topContent > p {
+  font-weight: bold;
+  font-size: clamp(0.078125rem, 0rem + 1.25vw, 7.8125rem);
+}
+
+.topContent > div {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  /* outline: 1px solid chartreuse; */
+}
+
+.topContent > div > p {
+  font-weight: 700;
+  font-size: clamp(0.0634375rem, 0rem + 1.015vw, 6.34375rem);
+}
+
+.middleContent {
+  width: 100%;
+  height: 60%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll;
+  padding-top: 1%;
+  /* outline: 1px solid orange; */
+}
+
+.middleContent::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.middleContent > p {
+  font-size: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  font-weight: 600;
+}
+
+.bottomContent {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: clamp(
+    0.0488125rem,
+    6.938893903907228e-18rem + 0.7809999999999999vw,
+    4.88125rem
+  );
+  color: rgb(192, 189, 189);
+  font-weight: 700;
+  /* outline: 1px solid orange; */
+}

@@ -1,0 +1,152 @@
+.embla {
+  position: relative;
+  padding: 5px;
+  max-width: 100%;
+  height: 25vh;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.embla__viewport.is-draggable {
+  cursor: move;
+  cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.embla__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -10px;
+}
+
+.embla__slide {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.embla__slide__inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.embla__slide__img {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  max-width: none;
+  transform: translate(-50%, -50%);
+}
+
+.embla__button {
+  outline: 0;
+  cursor: pointer;
+  background-color: transparent;
+  touch-action: manipulation;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  fill: #1bcacd;
+  padding: 0;
+}
+
+.embla__button:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.embla__button__svg {
+  width: 80%;
+  height: 80%;
+}
+
+.embla__button--prev {
+  width: 5.1%;
+  height: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  left: 10px;
+}
+
+.embla__button--prev > .embla__button__svg {
+  width: 40%;
+  height: 40%;
+}
+
+.embla__button--next {
+  width: 5%;
+  height: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  right: 20px;
+}
+
+.embla__button--next > .embla__button__svg {
+  width: 70%;
+  height: 70%;
+}
+
+.embla__button--prev:hover,
+.embla__button--next:hover {
+  background-color: rgb(54, 100, 165);
+}
+
+@media screen and (min-width: 640px) {
+  .embla__viewport:before {
+    display: none;
+    content: '{ "dragFree": true }';
+  }
+
+  .embla {
+    padding: 20px;
+    height: 44vh;
+  }
+
+  .embla__button--prev {
+    width: 2.1%;
+    left: 14px;
+  }
+
+  .embla__button--prev > .embla__button__svg {
+    width: 50%;
+    height: 50%;
+  }
+
+  .embla__button--next {
+    width: 2%;
+    right: 27px;
+  }
+}
