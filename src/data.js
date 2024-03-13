@@ -250,7 +250,7 @@ export const materialsData = {
   ],
   Paints: [
     {
-      image: "images/Materials/Paints/nerolacBeautyGold.webp",
+      image: "/images/Materials/Paints/nerolacBeautyGold.webp",
       materialName:
         "nerolac Beauty Gold Premium Emulsion 4ltr White White Emulsion Wall Paint",
       materialMrp: "2153.00",
@@ -262,7 +262,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacgoldwashable.webp",
+      image: "/images/Materials/Paints/nerolacgoldwashable.webp",
       materialName:
         "nerolac Beauty Gold Washable Premium Emulsion 20ltr White Emulsion Wall Paint ",
       materialMrp: "11500.00",
@@ -274,7 +274,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacBeautyGold.webp",
+      image: "/images/Materials/Paints/nerolacBeautyGold.webp",
       materialName:
         "nerolac Beauty Gold Premium Emulsion 20ltr White White Emulsion Wall Paint",
       materialMrp: "8500.00",
@@ -286,7 +286,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacUltimateExterior.webp",
+      image: "/images/Materials/Paints/nerolacUltimateExterior.webp",
       materialName:
         "nerolac Excel Everlast 12 White Ulimate Exterior Paint 20ltr White White Emulsion Wall Paint",
       materialMrp: "17600.00",
@@ -298,7 +298,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacImpression.webp",
+      image: "/images/Materials/Paints/nerolacImpression.webp",
       materialName:
         "nerolac Impression HD 24 Carat Premium Emulsion 4 ltr White Emulsion Wall Paint",
       materialMrp: "3584.00",
@@ -310,7 +310,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacExcelMica.webp",
+      image: "/images/Materials/Paints/nerolacExcelMica.webp",
       materialName:
         "nerolac Excel Mica Marble Stretch and Sheen White Exterior Paint 4ltr White Emulsion Wall Paint ",
       materialMrp: "2580.00",
@@ -322,7 +322,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacUltimateExterior.webp",
+      image: "/images/Materials/Paints/nerolacUltimateExterior.webp",
       materialName:
         "nerolac Excel Everlast 12 White Ulimate Exterior Paint 4ltr White Emulsion Wall Paint",
       materialMrp: "3864.00",
@@ -334,7 +334,7 @@ export const materialsData = {
       materialManufacturedby: "by Nerolac Paints",
     },
     {
-      image: "images/Materials/Paints/nerolacgoldwashable.webp",
+      image: "/images/Materials/Paints/nerolacgoldwashable.webp",
       materialName:
         "nerolac Beauty Gold Washable Premium Emulsion 20ltr White Emulsion Wall Paint ",
       materialMrp: "11500.00",
@@ -348,7 +348,7 @@ export const materialsData = {
   ],
   Bricks: [
     {
-      image: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      image: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       materialName:
         "KSP Eco Brick - 4''(4inch x 8inch x 16inch) (100mm x 200mm x 400mm)",
       materialMrp: "47.00",
@@ -360,7 +360,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      image: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       materialName:
         "KSP Eco Brick - 8''(8inch x 8inch x 12inch) (200mm x 200mm x 300mm)",
       materialMrp: "57.00",
@@ -372,7 +372,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      image: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       materialName:
         "KSP Eco Brick - 6''(6inch x 8inch x 12inch) (150mm x 200mm x 300mm)",
       materialMrp: "42.04",
@@ -384,7 +384,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      image: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       materialName:
         "KSP Eco Block - 4''(4inch x 6inch x 12inch) (100mm x 140mm x 290mm)",
       materialMrp: "25.53",
@@ -396,7 +396,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
+      image: "/images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
       materialName: "D Lite CLC Block",
       materialMrp: "38.00",
       isSalePrice: false,
@@ -407,7 +407,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/bbcnsbksp0003.png",
+      image: "/images/Materials/Bricks/bbcnsbksp0003.png",
       materialName:
         "KSP Eco Brick - 6''(9inch x 3inch x 6inch) (230mm X 70mm X 154mm)",
       materialMrp: "12.0",
@@ -419,7 +419,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      image: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       materialName:
         "KSP Eco Brick - 4''(4inch x 8inch x 16inch) (100mm x 200mm x 400mm)",
       aterialMrp: "47.00",
@@ -431,7 +431,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
+      image: "/images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
       materialName:
         "KSP Eco Brick - 9''(9inch x 3inch x 4inch) (230mm X 70mm X 110mm)",
       materialMrp: "13.14",
@@ -443,7 +443,7 @@ export const materialsData = {
       materialManufacturedby: "by KSP Eco Bricks",
     },
     {
-      image: "images/Materials/Bricks/bbcnsbksp0003.png",
+      image: "/images/Materials/Bricks/bbcnsbksp0003.png",
       materialName:
         "KSP Eco Brick - 6''(9inch x 3inch x 6inch) (230mm X 70mm X 154mm)",
       materialMrp: "12.0",
@@ -544,11 +544,11 @@ export const materialBrands = {
   ],
   Bricks: [
     {
-      imageUrl: "images/Materials/Bricks/ConcreteSolidBlocks.png",
+      imageUrl: "/images/Materials/Bricks/ConcreteSolidBlocks.png",
       name: "Concrete Blocks",
     },
     {
-      imageUrl: "images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
+      imageUrl: "/images/Materials/Bricks/d_lite_light_weight_bricks.jpg",
       name: "D Lite CLC Block",
     },
   ],

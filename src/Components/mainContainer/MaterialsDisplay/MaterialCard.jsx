@@ -3,12 +3,16 @@ import styles from "./materialCard.module.css";
 
 function MaterialCard({ data }) {
   return (
-    <div className={`${styles.mainContainer}`}>
+    <div
+      className={`${styles.mainContainer} ${
+        !data.inStock ? styles.notAvailable : ""
+      } `}
+    >
       <div className={`${styles.imageContainer}`}>
         <img src={data.image} alt="materialImage" />
         {!data.inStock ? (
           <img
-            src="/images/outofstock.png"
+            src="/images/outofstock1.jpg"
             alt="outofstock"
             className={`${styles.outOfStock}`}
           />

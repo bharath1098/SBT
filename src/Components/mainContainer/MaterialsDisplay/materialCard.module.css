@@ -8,6 +8,7 @@
   background-color: rgb(255, 255, 255);
   color: black;
   border-radius: clamp(0.05859375rem, 0rem + 0.9375vw, 5.859375rem);
+  cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   transition: box-shadow 0.3s ease; /* Add transition to the box shadow */
@@ -16,6 +17,11 @@
 
 .mainContainer:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.notAvailable {
+  opacity: 0.3;
+  cursor: auto;
 }
 
 .imageContainer {
@@ -30,7 +36,7 @@
 
 .imageContainer > img:nth-child(1) {
   height: 82%;
-  aspect-ratio: 1/1;
+  object-fit: contain;
 }
 
 .outOfStock {
