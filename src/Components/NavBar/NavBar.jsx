@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./navBar.module.css";
-import { contectInfo } from "../../data";
-import omImage from "../../../public/images/om.jpg";
-import ShopLogo from "../../../public/images/ShopLogo.png";
+import { contectInfo } from "../../data.js";
 import { debounce, throttle } from "lodash";
 
 function NavBar({ setfunction, searchValue }) {
@@ -17,10 +15,6 @@ function NavBar({ setfunction, searchValue }) {
 
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-
-  // const handleSearchChange = (event) => {
-  //   setSearchQuery(event.target.value);
-  // };
 
   const throttledSearch = debounce((event) => {
     const value = event.target.value;
@@ -52,9 +46,9 @@ function NavBar({ setfunction, searchValue }) {
         {/* Middle Top Navigation */}
         <div className={`${styles.middleTopNav}`}>
           <div>
-            <img src={omImage} alt="" />
+            <img src="/images/om.jpg" alt="om image" />
           </div>
-          <p>{t("godName")}</p>
+          {/* <p>{t("godName")}</p> */}
         </div>
 
         {/* Right Top Navigation */}
@@ -84,7 +78,7 @@ function NavBar({ setfunction, searchValue }) {
             }}
           >
             <div>
-              <img src={ShopLogo} alt="Logo" />
+              <img src="/images/shopLogo.png" alt="Logo" />
             </div>
             <p>{t("shopName")}</p>
           </div>
