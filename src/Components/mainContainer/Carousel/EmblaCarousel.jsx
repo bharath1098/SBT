@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
-import { mediaByIndex } from "./media/index.js";
+import { mediaByIndex, searchByIndex } from "./media/index.js";
 import "./emblaCarousel.css";
 
-const EmblaCarousel = ({ slides }) => {
+const EmblaCarousel = ({ slides, searchValue }) => {
   const [viewportRef, embla] = useEmblaCarousel({
     loop: true,
     skipSnaps: false,
@@ -46,7 +46,12 @@ const EmblaCarousel = ({ slides }) => {
         <div className="embla__container">
           {slides.map((index) => (
             <div className="embla__slide" key={index}>
-              <div className="embla__slide__inner">
+              <div
+                className="embla__slide__inner"
+                onClick={() => {
+                  searchValue(searchByIndex(index));
+                }}
+              >
                 <img
                   className="embla__slide__img"
                   src={mediaByIndex(index)}

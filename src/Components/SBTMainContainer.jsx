@@ -18,7 +18,12 @@ function SBTMainContainer() {
         }}
       />
       {focus === "main" ? (
-        <MainContainer search={search} />
+        <MainContainer
+          search={search}
+          searchValue={(value) => {
+            setSearch(value);
+          }}
+        />
       ) : focus === "feedback" ? (
         <FeedBackPage />
       ) : focus === "contactUs" ? (

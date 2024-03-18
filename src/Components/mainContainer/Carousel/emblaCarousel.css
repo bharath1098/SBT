@@ -47,6 +47,7 @@
   height: 100%;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .embla__slide__img {

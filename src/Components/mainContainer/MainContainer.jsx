@@ -4,7 +4,7 @@ import style from "./mainContainer.module.css";
 import { materialsData } from "../../data.js";
 import SelectedMaterial from "./SelectedMaterial/SelectedMaterial.jsx";
 
-function MainContainer({ search }) {
+function MainContainer({ search, searchValue }) {
   const SLIDE_COUNT = 6;
   const slides = Array.from(Array(SLIDE_COUNT).keys());
 
@@ -14,7 +14,7 @@ function MainContainer({ search }) {
         <SelectedMaterial search={search} />
       ) : (
         <>
-          <EmblaCarousel slides={slides} />
+          <EmblaCarousel slides={slides} searchValue={searchValue} />
           <MaterialDisplay info={materialsData.HotDeal} name={"Hot Deal"} />
           <MaterialDisplay info={materialsData.Cement} name={"Cement"} />
           <MaterialDisplay info={materialsData.Paints} name={"Paints"} />

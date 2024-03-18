@@ -67,8 +67,12 @@
 .materialName {
   width: 100%;
   height: 30%;
+  position: relative;
+  display: flex;
+  align-items: start !important;
   font-size: clamp(0.126953125rem, 0rem + 2.0313vw, 12.6953125rem);
   font-weight: 700;
+  overflow-y: scroll;
   /* outline: 1px solid red; */
 }
 
